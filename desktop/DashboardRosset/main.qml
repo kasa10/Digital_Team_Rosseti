@@ -41,7 +41,7 @@ ApplicationWindow {
             anchors.fill: parent
 
             ItemDelegate {
-                text: qsTr("ПС Айвазовский")
+                text: qsTr("ПС Курдюм")
                 width: parent.width
                 onClicked: {
                     stackView.push("Page1Form.qml")
@@ -50,9 +50,11 @@ ApplicationWindow {
                 icon.source: "qrc:/images/company.png"
                 icon.width: 30
                 icon.height: 30
+                font.bold: true
+                font.pointSize: 17
             }
             ItemDelegate {
-                text: qsTr("ПС Приморский")
+                text: qsTr("ПС Жасминная")
                 width: parent.width
                 onClicked: {
                     stackView.push("Page2Form.qml")
@@ -61,6 +63,43 @@ ApplicationWindow {
                 icon.source: "qrc:/images/company.png"
                 icon.width: 30
                 icon.height: 30
+                font.pointSize: 17
+            }
+            ItemDelegate {
+                text: qsTr("ПС Елшанка 2")
+                width: parent.width
+                onClicked: {
+                    stackView.push("Page2Form.qml")
+                    drawer.close()
+                }
+                icon.source: "qrc:/images/company.png"
+                icon.width: 30
+                icon.height: 30
+                font.pointSize: 17
+            }
+            ItemDelegate {
+                text: qsTr("ПС Саратовская")
+                width: parent.width
+                onClicked: {
+                    stackView.push("Page2Form.qml")
+                    drawer.close()
+                }
+                icon.source: "qrc:/images/company.png"
+                icon.width: 30
+                icon.height: 30
+                font.pointSize: 17
+            }
+            ItemDelegate {
+                text: qsTr("ПС Трофимовская")
+                width: parent.width
+                onClicked: {
+                    stackView.push("Page2Form.qml")
+                    drawer.close()
+                }
+                icon.source: "qrc:/images/company.png"
+                icon.width: 30
+                icon.height: 30
+                font.pointSize: 17
             }
         }
     }

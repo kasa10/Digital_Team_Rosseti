@@ -5,5 +5,15 @@ Page {
     width: 600
     height: 400
 
-    title: qsTr("ПС Приморский")
+    title: qsTr("Станция не контролируется сервером!")
+
+    Text {
+        id: element
+        text: qsTr("Станция не контролируется")
+        font.bold: true
+        verticalAlignment: Text.AlignVCenter
+        anchors.fill: parent
+        horizontalAlignment: Text.AlignHCenter
+        font.pixelSize: 35
+    }
 }

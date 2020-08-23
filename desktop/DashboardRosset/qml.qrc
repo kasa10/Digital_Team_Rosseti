@@ -8,6 +8,12 @@
         <file>images/logo.png</file>
         <file>MapStationItem.qml</file>
         <file>images/company.png</file>
-        <file>Controller.qml</file>
+        <file>TumblerControl.qml</file>
+        <file>CircleControl.qml</file>
+        <file>engine.js</file>
+        <file>img/background.png</file>
+        <file>img/background.svg</file>
+        <file>img/needle.svg</file>
+        <file>img/tickmark.svg</file>
     </qresource>
 </RCC>

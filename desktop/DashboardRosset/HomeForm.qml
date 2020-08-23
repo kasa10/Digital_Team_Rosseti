@@ -163,6 +163,8 @@ Page {
             name: "osm"
         }
 
+    //ПАО ФСК Эс
+
     Rectangle {
         id: rectangle
         color: "#cef2fe"
@@ -177,25 +179,47 @@ Page {
         Map {
             anchors.fill: parent
             plugin: mapPlugin
-            center: QtPositioning.coordinate(45.1222267, 35.4730291)
+            center: QtPositioning.coordinate(51.659009, 45.786808)
             zoomLevel: 18
             MapStationItem{
-                longitude: 45.122008
-                latitude: 35.473627
-                stationName: "ПС Айвазовская"
-                stationSubName: "35/10 кВ"
+                longitude: 51.659009
+                latitude: 45.786808
+                stationName: "ПС Курдюм"
+                stationSubName: "500/220/110 кВ"
                 isOnControl: true
             }
 
             MapStationItem{
-                longitude: 45.122617
-                latitude: 35.495167
-                stationName: "ПС Приморский"
-                stationSubName: "110/35,6 кВ"
+                longitude: 51.6005038
+                latitude: 45.8737693
+                stationName: "ПС Жасминная"
+                stationSubName: "110 кВ"
                 isOnControl: false
             }
 
-            //MapStationItem
+            MapStationItem{
+                longitude: 51.5968984
+                latitude: 45.9122968
+                stationName: "ПС Елшанка 2"
+                stationSubName: "110 кВ"
+                isOnControl: false
+            }
+
+            MapStationItem{
+                longitude: 51.619024
+                latitude: 45.965261
+                stationName: "ПС Саратовская"
+                stationSubName: "220/110/35 кВ"
+                isOnControl: false
+            }
+
+            MapStationItem{
+                longitude: 51.619024
+                latitude: 45.965261
+                stationName: "ПС Трофимовская"
+                stationSubName: "110 кВ"
+                isOnControl: false
+            }
         }
     }
 }
